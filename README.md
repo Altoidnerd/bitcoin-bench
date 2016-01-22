@@ -8,7 +8,7 @@ Someone told me using the default bitcoind debug.log may slow down the test. Thi
 
 ## Use
 
-Download a bitcoin-core release and change into the directory bitcoin-0.12.0/bin.  Run bench.bash from that location as shown. The logfile will be created in the same directory.
+Download a bitcoin-core release and change into the directory `bitcoin-0.XY.0/bin`.  Run bench.bash from that location as shown. The logfile will be created in the same directory.
 
 ## Defaults
 
