@@ -3,9 +3,11 @@
 startTime=$(date +%Y-%d-%mT%T%z)
 startTimeSeconds=$(date +%s)
 logFile="bitcoin_bench_""$startTimeSeconds"".log"
-nSeconds=2 # this makes a rpc call every 2 seconds; increase for slower systems
+# this makes an rpc call every 2 seconds; increase for slower systems
+nSeconds=2 
 currentBlockHeight=394395
-dbCacheMbytes=6000 # 6 GB default; descrease for older systems with less memory
+# 6 GB default dbcache size; descrease for older systems with less memory
+dbCacheMbytes=6000 
 bitcoindCmd="./bitcoind -dbcache=$dbCacheMbytes &"
 
 x='echo -e'
