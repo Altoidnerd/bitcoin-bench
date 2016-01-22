@@ -6,6 +6,7 @@ This script allows you to time the process of syncing to the blockchain when lau
 
 Someone told me using the default bitcoind debug.log may slow down the test. This script uses `bitcoin-cli getblockcount` and unix tools to create the log file. It writes a neat log file when you launch bitcoind with the script.  
 
+[A sample output is provided](https://raw.githubusercontent.com/Altoidnerd/bitcoin-bench/master/bitcoin_bench_1453438402.log)
 ## Use
 
 Download a bitcoin-core release and change into the directory `bitcoin-0.XY.0/bin`.  Run bench.bash from that location as shown. The logfile will be created in the same directory.
