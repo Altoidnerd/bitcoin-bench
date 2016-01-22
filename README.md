@@ -13,6 +13,6 @@ Download a bitcoin-core release and change into the directory bitcoin-0.12.0/bin
 ## Defaults
 
 * default timeout = 2 seocnds. `getblockcount` will be run every 2 seconds unless you change the  `nSeconds` parameter.
-* default bdcCacheMbytes=6000 so the command that starts bitcoind is `bitcoind -dbcache=6000 &`, which means 6GB of RAM.  If you have less memory, reduce the parameter.
+* default `dbCacheMbytes=6000` so the command that starts bitcoind is `bitcoind -dbcache=6000 &`, which means 6GB of RAM.  If you have less memory, reduce the parameter.
 
 There are some printing errors in the logfile meta section, but the timestamps and and blockcounts are accurate.
