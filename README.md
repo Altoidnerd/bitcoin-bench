@@ -16,3 +16,7 @@ Download a bitcoin-core release and change into the directory `bitcoin-0.XY.0/bi
 * default `dbCacheMbytes=6000` so the command that starts bitcoind is `bitcoind -dbcache=6000 &`, which means 6GB of RAM.  If you have less memory, reduce the parameter.
 
 There are some printing errors in the logfile meta section, but the timestamps and and blockcounts are accurate.
+
+## Issues
+* The script does not exit gracefully.  There is no test for sync completion so it must be halted manually.  
+* The script does not compute final statistics when halting.  
