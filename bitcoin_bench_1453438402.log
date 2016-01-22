@@ -5,7 +5,7 @@ Log File Name:		bitcoin_bench_1453438402.log
 Recording:		./bitcoind -dbcache=6000 &
 timeout:		2
 CurrentBlockheight		394395
-dbcahce:		6000 bytes
+dbcahce:		6000
 
 START TIME:	2016-21-01T23:53:22-0500
 Executing	./bitcoind -dbcache=6000 &	every 2 seconds
