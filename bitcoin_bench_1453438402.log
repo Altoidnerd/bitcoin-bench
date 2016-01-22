@@ -5,7 +5,7 @@ Log File Name:		bitcoin_bench_1453438402.log
 Recording:		./bitcoind -dbcache=6000 &
 timeout:		2
 CurrentBlockheight		394395
-dbcahce:		6000
+dbcahce:		6000 MB
 
 START TIME:	2016-21-01T23:53:22-0500
 Executing	./bitcoind -dbcache=6000 &	every 2 seconds
@@ -4935,3 +4935,79 @@ blockcount: 386177	Time: 2016-01-22T03:30:20	Unix Time (sec): 1453451420
 blockcount: 386210	Time: 2016-01-22T03:30:25	Unix Time (sec): 1453451425
 blockcount: 386231	Time: 2016-01-22T03:30:28	Unix Time (sec): 1453451428
 blockcount: 386282	Time: 2016-01-22T03:30:35	Unix Time (sec): 1453451435
+blockcount: 386282	Time: 2016-01-22T03:30:37	Unix Time (sec): 1453451437
+blockcount: 386302	Time: 2016-01-22T03:30:40	Unix Time (sec): 1453451440
+blockcount: 386315	Time: 2016-01-22T03:30:42	Unix Time (sec): 1453451442
+blockcount: 386334	Time: 2016-01-22T03:30:45	Unix Time (sec): 1453451445
+blockcount: 386334	Time: 2016-01-22T03:30:47	Unix Time (sec): 1453451447
+blockcount: 386355	Time: 2016-01-22T03:30:50	Unix Time (sec): 1453451450
+blockcount: 386386	Time: 2016-01-22T03:30:56	Unix Time (sec): 1453451456
+blockcount: 386405	Time: 2016-01-22T03:30:59	Unix Time (sec): 1453451459
+blockcount: 386434	Time: 2016-01-22T03:31:03	Unix Time (sec): 1453451463
+blockcount: 386460	Time: 2016-01-22T03:31:07	Unix Time (sec): 1453451467
+blockcount: 386474	Time: 2016-01-22T03:31:09	Unix Time (sec): 1453451469
+blockcount: 386491	Time: 2016-01-22T03:31:11	Unix Time (sec): 1453451471
+blockcount: 386506	Time: 2016-01-22T03:31:13	Unix Time (sec): 1453451473
+blockcount: 386532	Time: 2016-01-22T03:31:17	Unix Time (sec): 1453451477
+blockcount: 386546	Time: 2016-01-22T03:31:19	Unix Time (sec): 1453451479
+blockcount: 386556	Time: 2016-01-22T03:31:22	Unix Time (sec): 1453451482
+blockcount: 386566	Time: 2016-01-22T03:31:24	Unix Time (sec): 1453451484
+blockcount: 386578	Time: 2016-01-22T03:31:26	Unix Time (sec): 1453451486
+blockcount: 386583	Time: 2016-01-22T03:31:28	Unix Time (sec): 1453451488
+blockcount: 386583	Time: 2016-01-22T03:31:30	Unix Time (sec): 1453451490
+blockcount: 386594	Time: 2016-01-22T03:31:33	Unix Time (sec): 1453451493
+blockcount: 386603	Time: 2016-01-22T03:31:36	Unix Time (sec): 1453451496
+blockcount: 386610	Time: 2016-01-22T03:31:38	Unix Time (sec): 1453451498
+blockcount: 386627	Time: 2016-01-22T03:31:41	Unix Time (sec): 1453451501
+blockcount: 386643	Time: 2016-01-22T03:31:43	Unix Time (sec): 1453451503
+blockcount: 386658	Time: 2016-01-22T03:31:45	Unix Time (sec): 1453451505
+blockcount: 386672	Time: 2016-01-22T03:31:47	Unix Time (sec): 1453451507
+blockcount: 386674	Time: 2016-01-22T03:31:49	Unix Time (sec): 1453451509
+blockcount: 386674	Time: 2016-01-22T03:31:51	Unix Time (sec): 1453451511
+blockcount: 386674	Time: 2016-01-22T03:31:53	Unix Time (sec): 1453451513
+blockcount: 386682	Time: 2016-01-22T03:31:55	Unix Time (sec): 1453451515
+blockcount: 386699	Time: 2016-01-22T03:32:00	Unix Time (sec): 1453451520
+blockcount: 386717	Time: 2016-01-22T03:32:04	Unix Time (sec): 1453451524
+blockcount: 386746	Time: 2016-01-22T03:32:07	Unix Time (sec): 1453451527
+blockcount: 386770	Time: 2016-01-22T03:32:10	Unix Time (sec): 1453451530
+blockcount: 386786	Time: 2016-01-22T03:32:12	Unix Time (sec): 1453451532
+blockcount: 386796	Time: 2016-01-22T03:32:14	Unix Time (sec): 1453451534
+blockcount: 386798	Time: 2016-01-22T03:32:16	Unix Time (sec): 1453451536
+blockcount: 386818	Time: 2016-01-22T03:32:18	Unix Time (sec): 1453451538
+blockcount: 386823	Time: 2016-01-22T03:32:21	Unix Time (sec): 1453451541
+blockcount: 386834	Time: 2016-01-22T03:32:23	Unix Time (sec): 1453451543
+blockcount: 386848	Time: 2016-01-22T03:32:27	Unix Time (sec): 1453451547
+blockcount: 386874	Time: 2016-01-22T03:32:33	Unix Time (sec): 1453451553
+blockcount: 386891	Time: 2016-01-22T03:32:35	Unix Time (sec): 1453451555
+blockcount: 386899	Time: 2016-01-22T03:32:37	Unix Time (sec): 1453451557
+blockcount: 386903	Time: 2016-01-22T03:32:39	Unix Time (sec): 1453451559
+blockcount: 386911	Time: 2016-01-22T03:32:41	Unix Time (sec): 1453451561
+blockcount: 386911	Time: 2016-01-22T03:32:43	Unix Time (sec): 1453451563
+blockcount: 386918	Time: 2016-01-22T03:32:45	Unix Time (sec): 1453451565
+blockcount: 386923	Time: 2016-01-22T03:32:47	Unix Time (sec): 1453451567
+blockcount: 386928	Time: 2016-01-22T03:32:49	Unix Time (sec): 1453451569
+blockcount: 386948	Time: 2016-01-22T03:32:53	Unix Time (sec): 1453451573
+blockcount: 386989	Time: 2016-01-22T03:32:57	Unix Time (sec): 1453451577
+blockcount: 387025	Time: 2016-01-22T03:33:02	Unix Time (sec): 1453451582
+blockcount: 387050	Time: 2016-01-22T03:33:05	Unix Time (sec): 1453451585
+blockcount: 387068	Time: 2016-01-22T03:33:07	Unix Time (sec): 1453451587
+blockcount: 387099	Time: 2016-01-22T03:33:10	Unix Time (sec): 1453451590
+blockcount: 387114	Time: 2016-01-22T03:33:13	Unix Time (sec): 1453451593
+blockcount: 387133	Time: 2016-01-22T03:33:16	Unix Time (sec): 1453451596
+blockcount: 387155	Time: 2016-01-22T03:33:19	Unix Time (sec): 1453451599
+blockcount: 387173	Time: 2016-01-22T03:33:22	Unix Time (sec): 1453451602
+blockcount: 387190	Time: 2016-01-22T03:33:24	Unix Time (sec): 1453451604
+blockcount: 387194	Time: 2016-01-22T03:33:26	Unix Time (sec): 1453451606
+blockcount: 387203	Time: 2016-01-22T03:33:30	Unix Time (sec): 1453451610
+blockcount: 387209	Time: 2016-01-22T03:33:32	Unix Time (sec): 1453451612
+blockcount: 387212	Time: 2016-01-22T03:33:34	Unix Time (sec): 1453451614
+blockcount: 387225	Time: 2016-01-22T03:33:36	Unix Time (sec): 1453451616
+blockcount: 387241	Time: 2016-01-22T03:33:39	Unix Time (sec): 1453451619
+blockcount: 387249	Time: 2016-01-22T03:33:41	Unix Time (sec): 1453451621
+blockcount: 387253	Time: 2016-01-22T03:33:44	Unix Time (sec): 1453451624
+blockcount: 387253	Time: 2016-01-22T03:33:46	Unix Time (sec): 1453451626
+blockcount: 387259	Time: 2016-01-22T03:33:48	Unix Time (sec): 1453451628
+blockcount: 387279	Time: 2016-01-22T03:33:52	Unix Time (sec): 1453451632
+blockcount: 387300	Time: 2016-01-22T03:33:55	Unix Time (sec): 1453451635
+blockcount: 387307	Time: 2016-01-22T03:33:57	Unix Time (sec): 1453451637
+blockcount: 387307	Time: 2016-01-22T03:33:59	Unix Time (sec): 1453451639
