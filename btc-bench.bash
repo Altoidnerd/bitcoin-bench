@@ -14,7 +14,7 @@ x='echo -e'
 $x "$(uname -a)" >> $logFile
 $x "Writing to file: ./$logfile"
 a=$startTime; b=$startTimeSeconds; c=$logFile; d=$nSeconds; e=$currentBlockHeight; f=$dbCacheMbytes; g=$bitcoindCmd;
-$x "Time:\t\t$a\nUnix Time\t\t$b\nLog File Name:\t\t$c\nRecording:\t\t$g\ntimeout:\t\t$d\nCurrentBlockheight\t\t$e\ndbcahce:\t\t$f MB\n" >> $logFile
+$x "Time:\t\t$a\nUnix Start Time:\t\t$b\nLog File Name:\t\t$c\nRecording:\t\t$g\ntimeout:\t\t$d\nCurrentBlockheight\t\t$e\ndbcahce:\t\t$f MB\n" >> $logFile
 
 # warns users not to proceed with their wallets in the data directory
 if [[ -a "$HOME/.bitcoin" ]]; then
