@@ -1,6 +1,7 @@
 # bitcoin-bench
 
-![Alt text](http://i.imgur.com/wkuOOLf.png "btc-bench.bash")
+![pyPlot](http://i.imgur.com/obcLjDD.png "plot from output data made in python")
+![scrot](http://i.imgur.com/wkuOOLf.png "btc-bench.bash")
 
 This script allows you to time the process of syncing to the blockchain when launching a full node.  It records the blockcount every N seconds in a log file.
 
