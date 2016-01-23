@@ -31,6 +31,6 @@ $x $message
 
 while :
   do
-    $x "blockcount: $(./bitcoin-cli getblockcount)\tTime: $(date +%Y-%m-%dT%T)\tUnix Time (sec): $(date +%s)"  >> "$logFile"
+    $x "blockcount: $(./bitcoin-cli getblockcount)\tTime: $(date +%Y-%m-%dT%T)\tTime Elapsed (sec): $(($(date +%s)-b))\tUnixTime (sec): $(date +%s)"  >> "$logFile"
     sleep "$nSeconds"
 done
