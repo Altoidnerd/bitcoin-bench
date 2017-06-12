@@ -13,11 +13,12 @@ logFile="bitcoin_bench_""$startTimeSeconds"".log"
 #     descrease for older systems     #
 #     with less memory	              #
 #######################################
-
 nSeconds=2 
-currentBlockHeight=394395
 dbCacheMbytes=6000 
-bitcoindCmd="./bitcoind -dbcache=$dbCacheMbytes &"
+
+
+currentBlockHeight=394395
+bitcoindCmd="./bitcoind --dbcache=$dbCacheMbytes &"
 
 e='echo -e'
 
